@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0;
+}
+body {
+    background-color: #fac1c1;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    display: block;
+ 
+    background-color: rgb(249, 0, 0);   
+    height: 800px;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    font-family: Open Sans,fallback,sans-serif;
+    
+    margin:20px ;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+  
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+ 
+   
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.logo{
+    margin-top: 105px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 68px;
+}
+.logbtn1{
+   display: block;
+   padding: 4px 47px;
+   margin: auto;
+   margin-top: 50px;
+   font-size: 20px;
+   background-color: rgb(249, 0, 0); 
+   font-family: Open Sans,fallback,sans-serif;
+  
+   border-radius: 10px ;
+   border: white 1px solid;
+    text-decoration: none;
+   
+
+    
+}
+.logbtn1 a{
+	 text-decoration: none;
+	    color: white; 
+    
+}
+
+.signbtn2{
+     display: block;
+     padding: 4px 45px;
+     margin: auto;
+     font-size: 20px;
+     background-color:rgb(249, 0, 0); 
+     font-family: Open Sans,fallback,sans-serif;
+    
+     border-radius: 10px;
+     margin-top: 8px;
+     border: white 1px solid;
+      text-decoration: none;
+  
+}
+
+.signbtn2 a{
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.centre {	
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ecbbbb;
+}
+.delete{
+	 background-color: rgb(255, 58, 58);
+}
